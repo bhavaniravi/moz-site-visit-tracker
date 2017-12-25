@@ -1,0 +1,30 @@
+{
+
+  "manifest_version": 2,
+  "name": "moz-tracker",
+  "version": "1.0",
+
+  "description": "Tracks visits of pre-configured sites",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+  "permissions": [
+    "tabs",
+    "<all_urls>"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.facebook.com/*",
+                  "*://*.twitter.com/*",
+                  "*://*.quora.com/*",
+                  "*://*.medium.com/*",
+                  "*://*.stackoverflow.com/*"
+                 ],
+      "js": ["js/jquery.js",
+            "js/tracker.js"]
+    }
+  ]
+
+}
