@@ -1,6 +1,6 @@
 ### Initial Steps
 
-1. (Figured out how it works)https.//developer.mozilla.org/en-US/Add-ons/WebExtensions/Your_first_WebExtension
+1. (Figured out how it works)[https.//developer.mozilla.org/en-US/Add-ons/WebExtensions/Your_first_WebExtension]
 2. Played around a bit Like changed whole content into a single text
 document.body.innerHtml = "hello"
 3. Figured out how to add Jquery to it
